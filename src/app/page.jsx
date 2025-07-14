@@ -29,7 +29,7 @@ export default function Home() {
             <a href="https://github.com/MrBlueBlobGuy" className="px-1 hover:text-[#54c04a] transition"><FaGithub className="w-4 h-4 inline-block hover:underline"/> github </a>
             <a href="https://www.linkedin.com/in/debojyoti-ganguly-446274268" className="px-1 hover:text-[#54c04a] transition"> <FaLinkedin className="w-4 h-4 inline-block hover:underline"/> LinkedIn </a>
             <a href="https://medium.com/@debojyotiganguly70" className="px-1 hover:text-[#54c04a] transition"> <FaMedium className="w-4 h-4 inline-block hover:underline"/> Medium </a>
-            <a href="https://instagram.com/blue_guy_takes_photos" className="px-1 hover:text-[#54c04a] transition"> <FaInstagram className="w-4 h-4 inline-block hover:underline"/> Instagram </a>
+            <a href="https://instagram.com/blue.guy.takes.photos" className="px-1 hover:text-[#54c04a] transition"> <FaInstagram className="w-4 h-4 inline-block hover:underline"/> Instagram </a>
             <a href="https://steamcommunity.com/id/zorphis32/" className="px-1 hover:text-[#54c04a] transition"> <FaSteam className="w-4 h-4 inline-block hover:underline"/> Steam </a>
           </div>
         </div>
