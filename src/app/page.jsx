@@ -67,7 +67,7 @@ export default function Home() {
       </div>
 
       <div className="flex flex-row justify-center py-1">
-        <span className={`${rowdies.className} text-3xl`}>ContributionGraph</span>
+        <span className={`${rowdies.className} text-3xl`}>Contribution raph</span>
       </div>
 
       <div className="flex flex-row justify-center bg-[#131313] mx-56 py-6 rounded">
