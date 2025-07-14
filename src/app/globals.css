@@ -3,7 +3,41 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --highlights: #68ff5a;
 }
+
+@keyframes trace {
+  0% {
+    stroke-dashoffset: 4000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.level-0 {
+  background-color: #161b22;
+}
+.level-1 {
+  background-color: #0e4429;
+}
+.level-2 {
+  background-color: #006d32;
+}
+.level-3 {
+  background-color: #26a641;
+}
+.level-4 {
+  background-color: #39d353;
+}
+
+
+.trace-path {
+  stroke-dasharray: 4000;
+  stroke-dashoffset: 4000;
+  animation: trace 4s ease infinite alternate;
+}
+
 
 @theme inline {
   --color-background: var(--background);
