@@ -5,7 +5,7 @@ export default function footer(){
         <div className="relative flex flex-col mx-2 py-7 border-t-2">
             <div className="flex flex-row justify-between">
                 <div>
-                    Built With: <Image className="inline" src={"https://victoreke.com/_next/static/media/nextjs.4942ae50.svg"} width={32} height={32} alt = {"Next.js"} /> Next.js
+                    Built With: <Image className="inline" src={"https://victoreke.com/_next/static/media/nextjs.4942ae50.svg"} width={32} height={32} alt = {"Next.js"} /> Next.js <Image className="inline" src={"/tech_logos/vercel.png"} width={32} height={32} alt = {"Next.js"} /> Vercel
                 </div>                    
                 <div>
                     Copyright &copy; Debojyoti Ganguly 2025 All Rights Reserved 
